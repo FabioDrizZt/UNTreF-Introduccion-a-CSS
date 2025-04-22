@@ -1,0 +1,40 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  background-color: light-dark(#ccc, #333);
+}
+
+section {
+  color: blue
+}
+
+#principal {
+  color: red;
+}
+
+section.importante {
+  color: green;
+}
+
+/* h1, h2, h3 {
+  color: yellow;
+} */
+
+main section p {
+  color: rgb(37, 152, 163);
+}
+
+main > section > p {
+  color: purple;
+}
+
+p ~ span {
+  color: deeppink;
+}
+
+p + span {
+  color: pink;
+}
+
